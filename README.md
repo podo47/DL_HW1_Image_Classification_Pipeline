@@ -5,7 +5,7 @@ This project aims to build an "Image Classification Pipeline" based on the follo
 - [x] Feature extraction (transform the image into a fixed-length feature vector) - HOG
 - [x] Apply XGBoost, Catboost and LightGBM classifier to verify the performance
 
-[Click to read the code](https://github.com/podo47/DL_HW1_Image_Classification_Pipeline/blob/8d225151530b7abb7bfbe216e6c27a7e0fdbf396/DL__hw1.ipynb)
+[Click to read the code](https://github.com/podo47/DL_HW1_Image_Classification_Pipeline/blob/4a5784f62a7516388984875a0518e0378584dedd/DL__hw1.ipynb)
 --------------
 
 ## 1. Data
