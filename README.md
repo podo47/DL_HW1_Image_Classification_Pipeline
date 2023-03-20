@@ -7,7 +7,7 @@ This project aims to build an "Image Classification Pipeline" based on the follo
 
 [Click to read the code](https://github.com/podo47/DL_HW1_Image_Classification_Pipeline/blob/a55acafb95d2cccb61aa81e0fa56a99fe9745e02/DL__hw1.ipynb)
 
-Since the limitation of computing resource on free colab version, this project only chooses a rough way to process the data and training. If your resourse and equipments are good enough, you can modify the parameters of classifier and HOG, or increase images' size (higher spatial resolution and more detailed information) for more precise results.
+Due to the limitation of computing resource on free colab version, this project only chooses a rough way to process the data and training. If your resourse and equipments are good enough, base on this project's pipeline, you can also modify the parameters of classifier and HOG, or increase images' size (higher spatial resolution and more detailed information) for more precise results.
 
 --------------
 
