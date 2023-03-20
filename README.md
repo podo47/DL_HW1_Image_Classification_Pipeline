@@ -6,6 +6,9 @@ This project aims to build an "Image Classification Pipeline" based on the follo
 - [x] Apply XGBoost, Catboost and LightGBM classifier to verify the performance
 
 [Click to read the code](https://github.com/podo47/DL_HW1_Image_Classification_Pipeline/blob/a55acafb95d2cccb61aa81e0fa56a99fe9745e02/DL__hw1.ipynb)
+
+Since the limitation of computing resource on free colab version, this project only chooses a rough way to process the data and training. If your resourse and equipments are good enough, you can modify the parameters of classifier and HOG, or increase images' size (higher spatial resolution and more detailed information) for more precise results.
+
 --------------
 
 ## 1. Data
@@ -75,7 +78,7 @@ If you want to do the process of feature extraction by yourself, just do all the
 
  * Load feature vector and target variable
  
-    **🚩 Prepared data : ** [hog_data.npz](https://github.com/podo47/DL_HW1_Image_Classification_Pipeline/blob/0869ecab2bdd3524dda8420b8c17ef11e646e1b5/hog_data.npz)
+    🚩 Prepared data :  [hog_data.npz](https://github.com/podo47/DL_HW1_Image_Classification_Pipeline/blob/0869ecab2bdd3524dda8420b8c17ef11e646e1b5/hog_data.npz)
  
    ```python
    with np.load("/content/drive/MyDrive/images/hog_data.npz") as data:
@@ -88,7 +91,7 @@ If you want to do the process of feature extraction by yourself, just do all the
 
  * XGBoost
    
-   **🚩 Prepared data : ** [xgb_model.dat](https://github.com/podo47/DL_HW1_Image_Classification_Pipeline/blob/a55acafb95d2cccb61aa81e0fa56a99fe9745e02/xgb_model.dat)
+   🚩 Prepared data :  [xgb_model.dat](https://github.com/podo47/DL_HW1_Image_Classification_Pipeline/blob/a55acafb95d2cccb61aa81e0fa56a99fe9745e02/xgb_model.dat)
    
    Load the pretrained model
    ```python
@@ -96,7 +99,7 @@ If you want to do the process of feature extraction by yourself, just do all the
    ```
  * Catboost
 
-   **🚩 Prepared data : ** [cbc_model.dat](https://github.com/podo47/DL_HW1_Image_Classification_Pipeline/blob/a55acafb95d2cccb61aa81e0fa56a99fe9745e02/cbc_model.dat) , [eval_results_cbc.pkl](https://github.com/podo47/DL_HW1_Image_Classification_Pipeline/blob/a55acafb95d2cccb61aa81e0fa56a99fe9745e02/eval_results_cbc.pkl)
+   🚩 Prepared data :  [cbc_model.dat](https://github.com/podo47/DL_HW1_Image_Classification_Pipeline/blob/a55acafb95d2cccb61aa81e0fa56a99fe9745e02/cbc_model.dat) , [eval_results_cbc.pkl](https://github.com/podo47/DL_HW1_Image_Classification_Pipeline/blob/a55acafb95d2cccb61aa81e0fa56a99fe9745e02/eval_results_cbc.pkl)
    
    * Load the pretrained model
    ```python
@@ -111,7 +114,7 @@ If you want to do the process of feature extraction by yourself, just do all the
 
  * Light GBM
 
-   **🚩 Prepared data : ** [lgbm_model.dat](https://github.com/podo47/DL_HW1_Image_Classification_Pipeline/blob/a55acafb95d2cccb61aa81e0fa56a99fe9745e02/lgbm_model.dat)
+   🚩 Prepared data :  [lgbm_model.dat](https://github.com/podo47/DL_HW1_Image_Classification_Pipeline/blob/a55acafb95d2cccb61aa81e0fa56a99fe9745e02/lgbm_model.dat)
    
    Load the pretrained model
    ```python
